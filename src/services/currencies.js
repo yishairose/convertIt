@@ -1,0 +1,37 @@
+export const currencyList = [
+  { key: "AUD", name: "Australian Dollar" },
+  { key: "BGN", name: "Bulgarian Lev" },
+  { key: "BRL", name: "Brazilian Real" },
+  { key: "CAD", name: "Canadian Dollar" },
+  { key: "CHF", name: "Swiss Franc" },
+  { key: "CNY", name: "Chinese Renminbi Yuan" },
+  { key: "CZK", name: "Czech Koruna" },
+  { key: "DKK", name: "Danish Krone" },
+  { key: "EUR", name: "Euro" },
+  { key: "GBP", name: "British Pound" },
+  { key: "HKD", name: "Hong Kong Dollar" },
+  { key: "HUF", name: "Hungarian Forint" },
+  { key: "IDR", name: "Indonesian Rupiah" },
+  { key: "ILS", name: "Israeli New Sheqel" },
+  { key: "INR", name: "Indian Rupee" },
+  { key: "ISK", name: "Icelandic Króna" },
+  { key: "JPY", name: "Japanese Yen" },
+  { key: "KRW", name: "South Korean Won" },
+  { key: "MXN", name: "Mexican Peso" },
+  { key: "MYR", name: "Malaysian Ringgit" },
+  { key: "NOK", name: "Norwegian Krone" },
+  { key: "NZD", name: "New Zealand Dollar" },
+  { key: "PHP", name: "Philippine Peso" },
+  { key: "PLN", name: "Polish Złoty" },
+  { key: "RON", name: "Romanian Leu" },
+  { key: "SEK", name: "Swedish Krona" },
+  { key: "SGD", name: "Singapore Dollar" },
+  { key: "THB", name: "Thai Baht" },
+  { key: "TRY", name: "Turkish Lira" },
+  { key: "USD", name: "United States Dollar" },
+  { key: "ZAR", name: "South African Rand" },
+];
+
+// export const currencyList = Object.keys(currencies).map((key) => {
+//   return { key, name: currencies[key] };
+// });
