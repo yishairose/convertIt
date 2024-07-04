@@ -45,7 +45,7 @@ function Header() {
                 key={page}
                 sx={{ my: 2, color: "white", display: "block" }}
                 component={Link}
-                to={page}
+                to={page === "home" ? "" : page}
               >
                 {page}
               </Button>
