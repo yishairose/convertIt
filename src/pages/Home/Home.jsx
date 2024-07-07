@@ -8,12 +8,14 @@ import TabPanel from "@mui/lab/TabPanel";
 
 import { useState } from "react";
 import ChartsForm from "./ChartsForm";
-
+import { useNavigate } from "react-router-dom";
 function Home() {
   const [value, setValue] = useState("1");
+  const navigate = useNavigate();
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
+    // navigate();
   };
 
   return (

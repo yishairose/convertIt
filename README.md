@@ -1,8 +1,4 @@
-# React + Vite
+# ConvertIt
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Building this app I familiarised myself with react router and fetching data from a 3rd party api using loader functions. I also used this small project as an opportunity to build a moder UI using mui components.
+The navbar is a demo and was an opportunity to set up an app router using react router. I left the router in place for potential extra features that may be implemented in the future.
